@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E0E1DD;
+}
+body {
+    background-color: black;
+    color: #E0E1DD;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.dropdowns-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.date-selector {
+    display: flex;
+    position: relative;
+    
+    width: 100%;
+    max-width: 200px;
+    padding: 20px;
+    height: 60px;
+
+    cursor: pointer;
+    user-select: none;
+    color: #E0E1DD;
+}
+
+/* .date-selector:hover{
+    background-color: #1B263B;
+}
+
+.date-selector .date-selected {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #E0E1DD;
+}
+
+.date-selector .dates {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    background-color: #1B263B;
+    color: #E0E1DD;
+}
+
+.date-selector .dates.active{
+    display: block;
+    border-radius: 8px;
+    color: #E0E1DD;
+}
+
+.date-selector .dates .month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px white;
+    color: #E0E1DD;
+}
+.date-selector .dates .month .arrows{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E0E1DD;
+    font-size: 20px;
+}
+
+.date-selector .dates .month .arrows:hover{
+    background-color: lightgrey;
+}
+
+.date-selector .dates .month .arrows:active{
+    background-color: #1B263B;
+}
+
+.date-selector .dates .days {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    height: 200px;
+    background-color: #1B263B;
+    color: #E0E1DD;
+}
+
+.date-selector .dates .days .day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E0E1DD;
+}
+
+.date-selector .dates .days .day.selected{
+    background-color: #778DA9;
+} */
+.container .dropdowns-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 100px;
+}
+.container .dropdowns-wrapper select {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+}
+
+.container .dropdowns-wrapper .lift- select .lift-selected {
+  text-align: center;
+}
+/* .weight-select{
+
+} */
+/* 
+.container .dropdowns-wrapper .lift- select .lift-selected option{
+      
+} */
+input[type="number"], textarea {
+    background-color: #1B263B;
+    border-radius: 5px;
+}
+
+select {
+    background: #0D1B2A;
+    color: #E0E1DD;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    position: relative;
+
+    order: 0;
+}
+button {
+  background-color:  #415A77;
+  width: 100px;
+  border-radius: 4px;
+  
+}
+
+.charts {
+    color: #E0E1DD;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+/* Lift */
+
+
+ .select-box {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+
+/* Live list */
+/* li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+/* li button {
+font-size: 8px;
+margin-left: 20px;
+color: #666;
+} */
+/* ul {
+    list-style-type: none;
+    width: 1000px;
+    
+
+}  */
+
+/* Updating table */
+.container .updating-table table{
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .updating-table table, th, td{
+    border: 1px solid black;
+}
+.container .updating-table table {
+    width: 520px;
+    
+}
